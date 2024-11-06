@@ -1,5 +1,4 @@
-// controllers/livrosController.js
-const Livro = require('../models/Livro');  // Importa o modelo de Livro
+const Livro = require('../models/livro');  // Importa o modelo de Livro
 
 // Função para criar um novo livro
 exports.criarLivro = async (req, res) => {

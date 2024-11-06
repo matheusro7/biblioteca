@@ -1,4 +1,3 @@
-// models/Livro.js
 const pool = require('../db');  // Importa a conexão com o banco
 
 const Livro = {

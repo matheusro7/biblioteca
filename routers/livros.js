@@ -1,4 +1,3 @@
-// routes/livros.js
 const express = require('express');
 const router = express.Router();
 const livrosController = require('../controllers/livrosController');  // Importa o controlador de livros

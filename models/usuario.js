@@ -1,4 +1,3 @@
-// models/Usuario.js
 const pool = require('../db');  // Importa a conexão com o banco
 
 const Usuario = {

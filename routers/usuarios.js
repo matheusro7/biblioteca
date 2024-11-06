@@ -1,4 +1,3 @@
-// routes/usuarios.js
 const express = require('express');
 const router = express.Router();
 const usuariosController = require('../controllers/usuariosController');  // Importa o controlador de usuários
@@ -15,4 +14,4 @@ router.put('/:id', usuariosController.atualizarUsuario);
 // Rota para excluir um usuário
 router.delete('/:id', usuariosController.excluirUsuario);
 
-module.exports = router;  // Exporta o router para ser usado no app principal
+module.exports = router;  // Exporta o router

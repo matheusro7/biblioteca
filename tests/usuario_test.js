@@ -1,4 +1,3 @@
-// tests/usuarios.test.js
 const request = require('supertest');
 const app = require('../app');  // Importa o app para testar as rotas
 
