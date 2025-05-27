@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const usuariosController = require('../controllers/usuariosController');  // Importa o controlador de usuários
+const usuariosController = require('../controllers/usuariosController');  // Importa o controlador de usuários 
 
 // Rota para criar um novo usuário
 router.post('/', usuariosController.criarUsuario);

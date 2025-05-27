@@ -1,4 +1,4 @@
-const pool = require('../db');  // Importa a conexão com o banco
+const pool = require('../db');  // Importa a conexão com o banco 
 
 const Livro = {
   // Cria um novo livro

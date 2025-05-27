@@ -9,4 +9,4 @@ const pool = new Pool({
   port: 5433                       // Porta padrão do PostgreSQL
 });
 
-module.exports = pool;  // Exporta o pool para ser usado em outros arquivos
+module.exports = pool;  // Exporta o pool para ser usado em outros arquivo

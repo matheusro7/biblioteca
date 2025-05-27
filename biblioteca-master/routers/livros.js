@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const livrosController = require('../controllers/livrosController');  // Importa o controlador de livros
+const livrosController = require('../controllers/livrosController');  // Importa o controlador de livros 
 
 // Rota para criar um novo livro
 router.post('/', livrosController.criarLivro);

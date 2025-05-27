@@ -1,4 +1,4 @@
-const Usuario = require('../models/usuario');  // Importa o modelo de Usuário
+const Usuario = require('../models/usuario');  // Importa o modelo de Usuário 
 
 // Função para criar um novo usuário
 exports.criarUsuario = async (req, res) => {

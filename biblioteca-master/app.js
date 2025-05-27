@@ -9,5 +9,5 @@ app.use(express.json());
 app.use('/api/livros', livrosRoutes);      // Rota base para as operações de Livros
 app.use('/api/usuarios', usuariosRoutes);  // Rota base para as operações de Usuários
 
-// Inicia o servidor na porta 3000
+// Inicia o servidor na porta  3000
 app.listen(3000, () => console.log('Servidor rodando na porta 3000'));
